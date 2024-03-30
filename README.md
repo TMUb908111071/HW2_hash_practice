@@ -5,9 +5,10 @@
 ![image](https://github.com/TMUb908111071/HW2_hash_practice/assets/161851654/f2ac39e6-6aea-4c4e-b04a-fa18dfdb2f00)
 ***
 ## 程式碼解釋
-### 首先讓使用者輸入所想選擇的0~255中的整數數字
+### 打開檔案並讀取檔案，讀取英文字串
 ```
-number = int(input("請輸入0~255的整數數字: "))
+f = open('hw2_data.txt', 'r')
+lines = f.readlines()
 ```
 
 ### 
